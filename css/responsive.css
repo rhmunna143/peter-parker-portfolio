@@ -1,0 +1,31 @@
+@media screen and (max-width: 425px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .w-1100 {
+        width: 100%;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .p4 {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: rgb(217, 226, 217);
+    }
+
+    @media screen and (min-width: 480px) {
+        body {
+            background-color: lightgreen;
+        }
+    }
+}

@@ -4,13 +4,21 @@
     }
 
     .w-1100 {
-        width: 100%;
+        width: 375px;
     }
 
     .flex {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .flex-rev {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .p4 {
@@ -27,5 +35,27 @@
         body {
             background-color: lightgreen;
         }
+    }
+
+    .w-1100 {
+        width: 100%;
+    }
+
+    .p4 {
+        padding: 1rem;
+    }
+
+    .flex-rev {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }

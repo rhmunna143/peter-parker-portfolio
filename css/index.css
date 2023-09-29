@@ -39,11 +39,11 @@
 }
 
 .m80 {
-    margin: 80 px auto;
+    margin: 80px auto;
 }
 
 .p-4 {
-    padding: 10px;
+    padding: 20px;
 }
 
 .font {
@@ -58,8 +58,8 @@
     list-style: none;
 }
 
-.bg {
-    background-color: slategrey;
+.bg-slate {
+    background-color: rgb(230, 234, 238);
 }
 
 .white {
@@ -98,4 +98,12 @@ button {
 
 .w-100 {
     width: 100px;
+}
+
+.b-l {
+    border-left: 1px solid blue;
+}
+
+.px-4 {
+    padding: 0 20px;
 }

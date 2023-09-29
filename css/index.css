@@ -77,12 +77,21 @@ button {
     border-radius: 5px;
     border: none;
     margin: 16px 0;
+    cursor: pointer;
 }
 
 .margin-16 {
     margin: 16px 0;
 }
 
-flex-1 {
+.flex-1 {
     flex-grow: inherit;
+}
+
+.text-5xl {
+    font-size: 48px;
+}
+
+.w-500 {
+    width: 30rem;
 }
